@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import Table from "../components/Table";
 function Layout(props) {
   const { data } = props;
-  const extractedData = data;
-  console.log(extractedData[0]);
-  console.log(data);
+  // const extractedData = data;
+  // console.log(extractedData[0]);
+  // console.log(data);
   //go-dev.greedygame.com/v3/dummy/apps
   const [map, setMap] = useState();
   useEffect(() => {
